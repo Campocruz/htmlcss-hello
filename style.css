@@ -8,7 +8,7 @@
 /* Regole di stile per l'intestazione */
 header {
 	padding: 6px 8px;
-	height: 40px;
+	height: calc(100dvh - 90);
 	background-color: white;
 }
 
@@ -19,7 +19,7 @@ header {
 }
 
 .infobox {
-    padding: (100dvh - 40px);
+    padding: (90dvh - 40px);
 	height: calc(100dvh);
     background-color: whitesmoke;
     overflow-y: auto;
