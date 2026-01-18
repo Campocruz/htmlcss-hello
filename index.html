@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Collegamento al foglio di stile -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +9,42 @@
 </head>
 
 <body>
-    <!-- Titolo Pagina -->
     <header>
-    <div class="title">Una Giornata al Museo</div>
+        <h1 class="title">Una Giornata al Museo</h1>
+        <hr>
     </header>
-
-    <div class="infobox">
-        <!-- Oggetto Argomento-->
-        <div class="argument">
-            <!-- Oggetto Immagine-->
-            <div class="image">
-                <div class="picture">
-
+    <main>
+        <ol>
+            <li class="format-row">
+                <strong>Il dipinto che mi ha colpito di più</strong>
+                <div class="imagebox">
+                    <img class="images" src="img/dipinto.png" alt="dipinto">
+                    <p class="img-description">Un'opera d'arte affascinante vista nella galleria principale.</p>
                 </div>
-                <div class="description">
-
+                <p class="comment">Questo dipinto mi ha catturato per i suoi colori intensi e per l'espressione del volto del personaggio raffigurato</p>
+            </li>
+            <li class="format-row">
+                <strong>Un antica scultura</strong>
+                <div class="imagebox">
+                    <img class="images" src="img/scultura.png" alt="scultura">
+                    <p class="img-description">Scultura romana in marmo esposta nella sala archeologica.</p>
                 </div>
-            </div>
-            <div class="comment">
-
-            </div>
-        </div>
-    </div>
+                <p class="comment">La scultura era alta quasi due metri e mostrava un antico guerriero romano.</p>
+            </li>
+        </ol>
+        <hr>
+        <section>
+            <h2 class="second-title">Le cose che ho inparato oggi:</h2>
+            <ul>
+                <li>Le statue romane venivano spesso dipinte a colori vivaci</li>
+                <li>Molti dipinti nascondevano simboli e significati nascosti</li>
+                <li>Ogni opera ha una storia unica</li>
+            </ul>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <p>&copy; 2025 Insegnante di HTML</p>
+    </footer>
 </body>
 </html>
